@@ -14,3 +14,14 @@ This is a backend database project designed to manage a library system. It handl
 1. Create the database:
    ```sql
    CREATE DATABASE library_db;
+
+2. Import the schema and data:
+   ```bash
+   mysql -u [username] -p library_db < library_schema.sql
+3. Run the analysis queries found in queries.sql to generate reports.
+
+## Technology Stack
+- **MySQL 8.0
+- **Linux / WSL
+- **Bash Scripting (for automation)
+
